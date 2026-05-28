@@ -2,7 +2,7 @@
 	"name": "bronce_unidades",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_AzureSQL_FFAA_Origen",
+			"referenceName": "LS_AzureSQL_FFAA_Destino",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
@@ -43,8 +43,8 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "oltp",
-			"table": "tbl_unidades"
+			"schema": "bronze",
+			"table": "unidades_raw"
 		}
 	}
 }

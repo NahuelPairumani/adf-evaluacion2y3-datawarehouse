@@ -2,7 +2,7 @@
 	"name": "bronce_operaciones",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_AzureSQL_FFAA_Origen",
+			"referenceName": "LS_AzureSQL_FFAA_Destino",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
@@ -81,8 +81,8 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "oltp",
-			"table": "tbl_operaciones"
+			"schema": "bronze",
+			"table": "operaciones_raw"
 		}
 	}
 }

@@ -2,7 +2,7 @@
 	"name": "bronce_movimientos_personal",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_AzureSQL_FFAA_Origen",
+			"referenceName": "LS_AzureSQL_FFAA_Destino",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
@@ -54,8 +54,8 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "oltp",
-			"table": "tbl_movimientos_personal"
+			"schema": "bronze",
+			"table": "movimientos_personal_raw"
 		}
 	}
 }

@@ -2,7 +2,7 @@
 	"name": "bronce_especialidades",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_AzureSQL_FFAA_Origen",
+			"referenceName": "LS_AzureSQL_FFAA_Destino",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
@@ -26,8 +26,8 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "oltp",
-			"table": "tbl_especialidades"
+			"schema": "bronze",
+			"table": "especialidades_raw"
 		}
 	}
 }

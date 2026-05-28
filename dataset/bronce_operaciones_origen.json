@@ -1,8 +1,8 @@
 {
-	"name": "bronce_operaciones_destino",
+	"name": "bronce_operaciones_origen",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_AzureSQL_FFAA_Destino",
+			"referenceName": "LS_AzureSQL_FFAA_Origen",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
@@ -81,8 +81,8 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "bronze",
-			"table": "operaciones_raw"
+			"schema": "oltp",
+			"table": "tbl_operaciones"
 		}
 	}
 }

@@ -1,8 +1,8 @@
 {
-	"name": "bronce_especialidades_destino",
+	"name": "bronce_rangos_origen",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_AzureSQL_FFAA_Destino",
+			"referenceName": "LS_AzureSQL_FFAA_Origen",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
@@ -12,7 +12,7 @@
 		"type": "AzureSqlTable",
 		"schema": [
 			{
-				"name": "id_especialidad",
+				"name": "id_rango",
 				"type": "int",
 				"precision": 10
 			},
@@ -21,13 +21,22 @@
 				"type": "nvarchar"
 			},
 			{
-				"name": "area",
+				"name": "categoria",
+				"type": "nvarchar"
+			},
+			{
+				"name": "nivel_jerarquico",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "abreviatura",
 				"type": "varchar"
 			}
 		],
 		"typeProperties": {
-			"schema": "bronze",
-			"table": "especialidades_raw"
+			"schema": "oltp",
+			"table": "tbl_rangos"
 		}
 	}
 }

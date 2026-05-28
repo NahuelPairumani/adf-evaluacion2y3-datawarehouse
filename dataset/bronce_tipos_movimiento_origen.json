@@ -1,8 +1,8 @@
 {
-	"name": "bronce_especialidades_destino",
+	"name": "bronce_tipos_movimiento_origen",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_AzureSQL_FFAA_Destino",
+			"referenceName": "LS_AzureSQL_FFAA_Origen",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
@@ -12,22 +12,22 @@
 		"type": "AzureSqlTable",
 		"schema": [
 			{
-				"name": "id_especialidad",
+				"name": "id_tipo",
 				"type": "int",
 				"precision": 10
 			},
 			{
 				"name": "nombre",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
-				"name": "area",
-				"type": "varchar"
+				"name": "descripcion",
+				"type": "nvarchar"
 			}
 		],
 		"typeProperties": {
-			"schema": "bronze",
-			"table": "especialidades_raw"
+			"schema": "oltp",
+			"table": "tbl_tipos_movimiento"
 		}
 	}
 }

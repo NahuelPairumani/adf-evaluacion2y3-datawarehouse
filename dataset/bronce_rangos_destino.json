@@ -1,5 +1,5 @@
 {
-	"name": "bronce_rangos",
+	"name": "bronce_rangos_destino",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_AzureSQL_FFAA_Destino",

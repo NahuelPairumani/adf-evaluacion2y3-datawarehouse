@@ -1,8 +1,8 @@
 {
-	"name": "bronce_estructura_organizacional_destino",
+	"name": "bronce_unidades_origen",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_AzureSQL_FFAA_Destino",
+			"referenceName": "LS_AzureSQL_FFAA_Origen",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
@@ -12,39 +12,39 @@
 		"type": "AzureSqlTable",
 		"schema": [
 			{
-				"name": "id_estructura",
+				"name": "id_unidad",
 				"type": "int",
 				"precision": 10
 			},
 			{
-				"name": "id_padre",
+				"name": "id_brigada",
 				"type": "int",
 				"precision": 10
-			},
-			{
-				"name": "nivel",
-				"type": "varchar"
 			},
 			{
 				"name": "nombre",
 				"type": "nvarchar"
 			},
 			{
-				"name": "sigla",
+				"name": "codigo",
 				"type": "varchar"
 			},
 			{
-				"name": "tipo",
-				"type": "varchar"
-			},
-			{
-				"name": "cobertura_departamentos",
+				"name": "ciudad",
 				"type": "nvarchar"
+			},
+			{
+				"name": "departamento",
+				"type": "nvarchar"
+			},
+			{
+				"name": "tipo_cuartel",
+				"type": "varchar"
 			}
 		],
 		"typeProperties": {
-			"schema": "bronze",
-			"table": "estructura_organizacional_raw"
+			"schema": "oltp",
+			"table": "tbl_unidades"
 		}
 	}
 }

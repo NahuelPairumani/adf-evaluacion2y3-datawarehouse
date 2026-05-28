@@ -6,70 +6,70 @@
 			"sources": [
 				{
 					"dataset": {
-						"referenceName": "bronce_efectivos",
+						"referenceName": "bronce_efectivos_origen",
 						"type": "DatasetReference"
 					},
 					"name": "source1"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_especialidades",
+						"referenceName": "bronce_especialidades_origen",
 						"type": "DatasetReference"
 					},
 					"name": "source2"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_estructura_organizacional",
+						"referenceName": "bronce_estructura_organizacional_origen",
 						"type": "DatasetReference"
 					},
 					"name": "source3"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_movimientos_personal",
+						"referenceName": "bronce_movimientos_personal_origen",
 						"type": "DatasetReference"
 					},
 					"name": "source4"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_operaciones",
+						"referenceName": "bronce_operaciones_origen",
 						"type": "DatasetReference"
 					},
 					"name": "source5"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_rangos",
+						"referenceName": "bronce_rangos_origen",
 						"type": "DatasetReference"
 					},
 					"name": "source6"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_tipos_movimiento",
+						"referenceName": "bronce_tipos_movimiento_origen",
 						"type": "DatasetReference"
 					},
 					"name": "source7"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_tipos_operacion",
+						"referenceName": "bronce_tipos_operacion_origen",
 						"type": "DatasetReference"
 					},
 					"name": "source8"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_unidades",
+						"referenceName": "bronce_unidades_origen",
 						"type": "DatasetReference"
 					},
 					"name": "source9"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_zonas",
+						"referenceName": "bronce_zonas_origen",
 						"type": "DatasetReference"
 					},
 					"name": "source10"
@@ -78,70 +78,70 @@
 			"sinks": [
 				{
 					"dataset": {
-						"referenceName": "bronce_efectivos",
+						"referenceName": "bronce_efectivos_destino",
 						"type": "DatasetReference"
 					},
 					"name": "sink1"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_especialidades",
+						"referenceName": "bronce_especialidades_destino",
 						"type": "DatasetReference"
 					},
 					"name": "sink2"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_estructura_organizacional",
+						"referenceName": "bronce_estructura_organizacional_destino",
 						"type": "DatasetReference"
 					},
 					"name": "sink3"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_movimientos_personal",
+						"referenceName": "bronce_movimientos_personal_destino",
 						"type": "DatasetReference"
 					},
 					"name": "sink4"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_operaciones",
+						"referenceName": "bronce_operaciones_destino",
 						"type": "DatasetReference"
 					},
 					"name": "sink5"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_rangos",
+						"referenceName": "bronce_rangos_destino",
 						"type": "DatasetReference"
 					},
 					"name": "sink6"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_tipos_movimiento",
+						"referenceName": "bronce_tipos_movimiento_destino",
 						"type": "DatasetReference"
 					},
 					"name": "sink7"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_tipos_operacion",
+						"referenceName": "bronce_tipos_operacion_destino",
 						"type": "DatasetReference"
 					},
 					"name": "sink8"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_unidades",
+						"referenceName": "bronce_unidades_destino",
 						"type": "DatasetReference"
 					},
 					"name": "sink9"
 				},
 				{
 					"dataset": {
-						"referenceName": "bronce_zonas",
+						"referenceName": "bronce_zonas_destino",
 						"type": "DatasetReference"
 					},
 					"name": "sink10"

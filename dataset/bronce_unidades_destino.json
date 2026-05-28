@@ -1,5 +1,5 @@
 {
-	"name": "bronce_unidades",
+	"name": "bronce_unidades_destino",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_AzureSQL_FFAA_Destino",

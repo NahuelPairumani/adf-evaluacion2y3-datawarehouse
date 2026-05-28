@@ -1,5 +1,5 @@
 {
-	"name": "bronce_tipos_operacion",
+	"name": "bronce_tipos_operacion_destino",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_AzureSQL_FFAA_Destino",

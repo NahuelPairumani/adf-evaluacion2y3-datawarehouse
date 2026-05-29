@@ -1,6 +1,9 @@
 {
 	"name": "df_bronce_cargar_datos",
 	"properties": {
+		"folder": {
+			"name": "bronze"
+		},
 		"type": "MappingDataFlow",
 		"typeProperties": {
 			"sources": [
